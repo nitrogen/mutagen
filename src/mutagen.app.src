@@ -1,0 +1,11 @@
+{application, mutagen, [
+  {description, "An Erlang Mutex Server for Nitrogen"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {links, [{"Github", "https://github.com/nitrogen/mutagen"}]},
+  {maintainers, ["Jesse Gumm"]},
+  {licenses, ["Apache"]},
+  {mod, {mutagen_app, []}}
+ ]}.

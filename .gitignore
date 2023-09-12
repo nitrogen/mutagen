@@ -1,0 +1,8 @@
+*~
+*.sw?
+.rebar
+ebin/
+*.beam
+_build/
+logs/
+rebar3
