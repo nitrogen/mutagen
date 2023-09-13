@@ -5,7 +5,6 @@
   {applications, [kernel, stdlib]},
   {env, []},
   {links, [{"Github", "https://github.com/nitrogen/mutagen"}]},
-  {maintainers, ["Jesse Gumm"]},
-  {licenses, ["Apache"]},
+  {licenses, ["Apache-2.0"]},
   {mod, {mutagen_app, []}}
  ]}.
