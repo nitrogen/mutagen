@@ -1,6 +1,6 @@
 %%%-------------------------------------------------------------------
 %%% @author Jesse Gumm
-%%% @copyright (C) 2017, 2023 Jesse Gumm
+%%% @copyright (C) 2023 Jesse Gumm
 %%% @doc Mutagen is a mutex server for Nitrogen and Erlang. It has been pulled
 %%% out of nitro_cache to be its own dependency. There are no pre-set mutexes.
 %%% Simply requesting a mutex with lock/1 or lock/2 will either issue a mutex
@@ -40,8 +40,6 @@
 
 -record(state, {mutexes, waitlists, notifylists}).
 -record(mutex, {key, pid, monitor}).
-
-
 
 
 %%%===================================================================
